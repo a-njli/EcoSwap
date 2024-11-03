@@ -43,9 +43,14 @@ Here’s a high-level overview of the system architecture:
 ### Commands to Run
 - Frontend:
   ```bash
+  # Install Frontend dependencies
   npm install
+  # Start Frontend Server
   npm run dev
 - Backend:
   ```bash
+  # Install Backend dependencies
+  pip install -r requirements.txt
+  # Start Backend Server
   python app.py
   
