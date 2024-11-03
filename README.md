@@ -40,12 +40,12 @@ Here’s a high-level overview of the system architecture:
 - Python 3.8 or higher
 - Gemini API key
 
-##Commands to run
+### Commands to Run
 - Frontend:
   ```bash
   npm install
-  npm run dev```
+  npm run dev
 - Backend:
   ```bash
-  python app.py```
+  python app.py
   
