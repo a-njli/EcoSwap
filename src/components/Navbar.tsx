@@ -1,14 +1,22 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Leaf, Search, Menu, X, User, LogIn } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
+  const navigate = useNavigate();
 
-  const handleSearch = (e: React.FormEvent) => {
+  const handleSearch = async(e: React.FormEvent) => {
     e.preventDefault();
     // Handle search logic
+    if (searchQuery.trim()) {
+      navigate(`/analysis/${searchQuery}`);
+    } else {
+      alert('Please enter a search query.');
+    }
   };
 
   return (
@@ -27,14 +35,22 @@ export default function Navbar() {
           <div className="hidden md:flex items-center space-x-8">
             <form onSubmit={handleSearch} className="flex-1 max-w-lg">
               <div className="relative">
-                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
                 <input
                   type="text"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder="Search eco-friendly products..."
-                  className="w-full pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
+                  placeholder="Search eco-friendly products"
+                  className="w-full pl-4 pr-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
+                  //className="pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
+                  style={{ width: '273px' }}
                 />
+                <button
+                  type="submit"
+                  className="absolute right-0 top-0 bottom 0 bg-emerald-600 text-white rounded-r-full px-4 flex items-center justify-center focus:outline-none"
+                  style={{ height: '41.5px', width: '45px' }}
+                >
+                <Search className=" text-white" />
+                </button>
               </div>
             </form>
 
@@ -81,6 +97,13 @@ export default function Navbar() {
                   placeholder="Search eco-friendly products..."
                   className="w-full pl-10 pr-4 py-2 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
                 />
+                <button
+                  type="submit"
+                  className="absolute right-0 top-0 bottom-0 bg-emerald-600 text-white rounded-r-full px-4 flex items-center justify-center focus:outline-none"
+                  style={{ height: '41.5px', width: '45px' }}
+                >
+                <Search className=" text-white" />
+                </button>
               </div>
             </form>
             <Link
