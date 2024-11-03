@@ -15,13 +15,17 @@
 
 ---
 
+## Video ([Video Link](https://youtu.be/YokEf1rs9Yk?si=-Ka4fQqm48zMkcOn))
+
+https://github.com/user-attachments/assets/dee93e5f-de16-4703-826e-6efc5e3dc2fe
+
 ## Tech Stack
 
 - **Programming Language**: Python
 - **Backend**: Flask
 - **Frontend**: React.js, JavaScript, TypeScript
 - **AI Models**: Gemini-pro model for Generative AI
-- **APIs**: Gemini API for generative insights
+- **API**: Gemini API for generative insights
 
 ---
 
