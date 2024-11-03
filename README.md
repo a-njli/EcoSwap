@@ -19,7 +19,7 @@
 
 - **Programming Language**: Python
 - **Backend**: Flask
-- **Frontend**: HTML, CSS, JavaScript, TypeScript
+- **Frontend**: React.js, JavaScript, TypeScript
 - **AI Models**: Gemini-pro model for Generative AI
 - **APIs**: Gemini API for generative insights
 
