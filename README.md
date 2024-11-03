@@ -40,9 +40,12 @@ Here’s a high-level overview of the system architecture:
 - Python 3.8 or higher
 - Gemini API key
 
-### Steps
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/ecoswap.git
-   cd ecoswap
+##Commands to run
+- Frontend:
+  ```bash
+  npm install
+  npm run dev```
+- Backend:
+  ```bash
+  python app.py```
+  
