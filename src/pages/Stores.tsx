@@ -62,7 +62,59 @@ const products = [
     rating: 4.9,
     reviews: 167,
     url: 'https://www.amazon.in/FineDine-Glass-Food-Storage-Container/dp/B0CDXDHNXB/ref=sr_1_10?crid=3LNG8IA990PV4&dib=eyJ2IjoiMSJ9.7feSbWAtAL4gs0D4OV4_ZpCziek2TFVCB-yq4S6ESkUStbZOa1tf5K0QcQ6U4ao_MK7bVH1V-drXOIe2HgrSnVDncPj_sGd2or8Cee7stmy8dxIDT3TED97LHoxupzTYj69LsYCi3z3MsgSJvGK_ttxsTKiJZmkGKseqiYvTaY_8M8TECfgoan9EOkpix55mff8tbG8NB8lcVRnN23faYFArGtSOGxF5EpVAOY4sjcTGUZLEIGWzpg8CbGX6NVrHF1xs4kuYLOW_sgSBZz5Bj9RVyuqAviCpDjyzXNGvwn8.v8JTNtEd-z8KWDiYyHRy8i-wSNmmRXNOM0bhC6a0ffg&dib_tag=se&keywords=Glass+Storage+Containers&qid=1730456893&sprefix=glass+storage+containers%2Caps%2C226&sr=8-10', // Unique link
+  },
+  {
+    id: 7,
+    name: 'Reusable Sanitary Cloth Pads Napkins',
+    description: 'FabPad Reusable Washable Sanitary Cloth Pads Napkins Full Cycle Eco-Friendly Menstrual Hygiene Solutions (Pack Of 8)',
+    price: 949,
+    image: 'https://m.media-amazon.com/images/I/91EwZHdX8dL._AC_UL320_.jpg',
+    rating: 3.8,
+    reviews: 1407,
+    url: 'https://www.amazon.in/FabPad-Reusable-Eco-Friendly-Menstrual-Solutions/dp/B08WB4KW99/ref=sr_1_4_sspa?crid=2EYDP5MXB0F9U&dib=eyJ2IjoiMSJ9.AhUSVKr3rvORlUFMwkloR5Nj4cOab9ADEZRdWrEf-JKJyBI6cVPNR3N14efDYuR44qv9ZkYvDUtIlnsAXvYWENWjMfmzv3CGhQet1JbR7Hya4bUmw1w3NNOMEvNH703t3yd-vkCiCHOWVt1X-_XLUtc3DCVu2Ji0MHlGkJL5Fed2sm0X1p9zUVIiLvx7HWUj7U3KU7kGbtm4ejotYvd91Ry5xieafaY5Z0aeqpbBLSm-PhpdLVl5RovEPl0-IVaIdQzGfFK018tiIlLuHNfV99ZbW2Ul5mnkNxnfE5DC-00.wnY4r_kClY9Rn2Nd-D8Z1PLd3HnXIJeVLQ7dDSHwKPY&dib_tag=se&keywords=eco%2Bfriendly%2Breusable%2Bproducts&nsdOptOutParam=true&qid=1731934061&sprefix=eco%2Bfriendly%2Breusable%2Bproducts%2Caps%2C228&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&smid=AKQENKAJVHVT8&th=1' // Unique link
+  },
+  {
+    id: 8,
+    name: 'Pee Safe Reusable Sanitary Pads',
+    description: 'Pee Safe Reusable Sanitary Pads For Women | Anti-Bacterial | Superb Absorbency | Lasts Up To 60 Washes | 3 Regular Pads + 1 Overnight Pad | Skin Friendly | Comfortable & Easy TO Use | Pack of 4',
+    price: 359,
+    image: 'https://m.media-amazon.com/images/I/51dRFZFQxZL._AC_UL320_.jpg',
+    rating: 4.1,
+    reviews: 3272,
+    url: 'https://www.amazon.in/Reusable-Washable-Sanitary-Regular-Overnight/dp/B085QV1Q2H/ref=srd_d_psims_T1_d_sccl_3_1/257-7018781-1633132?pd_rd_w=bKqIv&content-id=amzn1.sym.c98d9c15-26d7-43ec-9c6a-adf52c73e51b&pf_rd_p=c98d9c15-26d7-43ec-9c6a-adf52c73e51b&pf_rd_r=M55S12DYPAY3VQ9F4WN0&pd_rd_wg=87RgA&pd_rd_r=07122b7b-a3ba-426c-ba60-a5788517f6b5&pd_rd_i=B085QV1Q2H&th=1' // Unique link
+  },
+  {
+    id: 9,
+    name: 'Reusable Menstrual Cup',
+    description: 'Sirona Reusable Menstrual Cup for Women | Large Size with Pouch|Ultra Soft, Odour and Rash Free|100% Medical Grade Silicone |No Leakage | Protection for Up to 8-10 Hours | US FDA Registered,Pack of 1',
+    price: 267,
+    image: 'https://m.media-amazon.com/images/I/71KWZwaDQvL._AC_UL320_.jpg',
+    rating: 4.3,
+    reviews: 50581,
+    url: 'https://www.amazon.in/Sirona-Approved-Reusable-Menstrual-Silicone/dp/B07548ND5J/ref=sr_1_6?crid=1AH4OOAX6CYVA&dib=eyJ2IjoiMSJ9.lf1Oq0NHUTFzQKC3Xp2DNt1Jn9D-btq_jA0vCTcUNKwSODOiDIamMsNAZkSVOiQ2UHOiatbbDszQOdJcix8vkzpLUFVbyPEhHu2eBzyAwOqmnz_Mo-UfObSUSw2r6Y3ODYW-Q4XrSfny0rr3ylu68d0JDvyMEle-hHBznvcoGPR7chBk2cIwdGEiorwuxCQj1P4uf5ziNi7MfYjbcieDihtlqjf9CqIRu7KMHogBspVoPO720Y38egrX1Yh5bzduXrLy8ocdJ6Ng7d0cj5y60fUCuOZGoPmaVHa1d3GT9Ug.dj8_UHbYM8zumNLhki1jFr0SE6ZH85y34_Fw9I9we90&dib_tag=se&keywords=reusable%2Bsanitary%2Bcups%2Bfor%2Bwomen&qid=1731934633&sprefix=reusable%2Bsanitary%2Bcup%2Bfor%2Bwomen%2Caps%2C325&sr=8-6&th=1' // Unique link
+  },
+  {
+    id: 10,
+    name: 'Asan Menstrual Cup',
+    description: 'Asan Menstrual Cup - Light/Medium Flow Pack Of 2 | Easiest Cup To Insert & Remove I Special Ring Design | Premium Medical Grade Silicone I Designed In The Usa, Red',
+    price: 2880,
+    image: 'https://m.media-amazon.com/images/I/71P8K06zGHL._AC_UL320_.jpg',
+    rating: 4.4,
+    reviews: 180,
+    url: 'https://www.amazon.in/Asan-Menstrual-cup-silicone-Designed/dp/B0CHDTGQ3D/ref=sxin_15_pa_sp_search_thematic_sspa?content-id=amzn1.sym.cd33fa60-47cd-49f3-80b8-24b1f0cbef97%3Aamzn1.sym.cd33fa60-47cd-49f3-80b8-24b1f0cbef97&crid=1AH4OOAX6CYVA&cv_ct_cx=reusable%2Bsanitary%2Bcups%2Bfor%2Bwomen&dib=eyJ2IjoiMSJ9.NymeglFg_IDb8gXvBG_gzDtghOSMRv2SOZX65slM0mOtX6HGEQebotjt2UaWa0WG.jtTfDZ097BIi5a75JxX87o5LHXgzmA143Y_oAoFl3Ns&dib_tag=se&keywords=reusable%2Bsanitary%2Bcups%2Bfor%2Bwomen&pd_rd_i=B0CHDTGQ3D&pd_rd_r=fb1486c8-2200-4429-8cdd-fa727beb411e&pd_rd_w=6HPkb&pd_rd_wg=KUbte&pf_rd_p=cd33fa60-47cd-49f3-80b8-24b1f0cbef97&pf_rd_r=W8GJTYHZV2K7XSQ40XDD&qid=1731934633&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=reusable%2Bsanitary%2Bcup%2Bfor%2Bwomen%2Caps%2C325&sr=1-2-ced4eeeb-b190-41d6-902a-1ecb3fb8b7c4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1' // Unique link
+  },
+  {
+    id: 11,
+    name: 'Steel Straws + Straw Cleaning Brush ',
+    description: 'S.S.M India Steel Straws + Straw Cleaning Brush | Straws for Drinking Juice | Metal Straw | Eco Friendly Products | Stainless Steel Straw | Straw for Kids | Reusable Straw | Steel Sipper with Straw',
+    price: 179,
+    image: 'https://m.media-amazon.com/images/I/61RsiEZZ0yL._AC_UL320_.jpg',
+    rating: 5.0,
+    reviews: 1,
+    url: 'https://www.amazon.in/Cleaning-Drinking-Friendly-Products-Stainless/dp/B0B3MLMGFF/ref=sr_1_26?crid=1485E3V4QZFZR&dib=eyJ2IjoiMSJ9.AhUSVKr3rvORlUFMwkloR3bnQeGfyhmw4LO6YwVe_-0B58KWWiyT84bUsDl_eKldlOnbAx2NX0AVTwSYFpqgZzU2V6dt4-9pditt-0FVtyKVxPaY39tRuVpP7iFicTFd6P3shvv-bdg6bje-hZqb5BPU5b7xa2zIxXu7qS418BXdp26s7KasyRpszimJFh6muC-LX7R4dJqBNVuujHcO_JSBtew_zYlmGY1OZBpG-Qv_rhtJTVWAdiilW5YHvE9l6iswo9vrMARW4qlaFdYdfYRdLbOVO2RvIzMhiJW8QDA.R2dO83y0mYP1KGHunX_TT77ZStZCwZAfP07pUFSK404&dib_tag=se&keywords=reusable+eco+friendly+products&qid=1731935195&sprefix=reusable+eco+friendly+products+%2Caps%2C241&sr=8-26' // Unique link
   }
+
+
 ];
 
 export default function Stores() {
