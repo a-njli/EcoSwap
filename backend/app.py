@@ -20,11 +20,12 @@ CORS(app)
 
 # prompt template
 prompt_template = '''
-    Provide a detailed environmental impact analysis and reusable alternatives for the {product} specified below. Format the response using bullets and proper bold in text format.
+    Provide a detailed environmental impact analysis along with statstics 
+    and reusable alternatives for the {product} specified below. Format the response using bullets and proper bold in text format.
     Structure the output as follows:
     Product: {product}
     Environmental Impacts:
-        Carbon Footprint: <details>
+        Carbon Footprint: <details >
         Water Footprint: <details>
         Durability: <details>
         Pollution: <details>

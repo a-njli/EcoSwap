@@ -40,7 +40,7 @@ export default function AnalysisPage() {
   };
 
   return (
-    <div className="p-4">
+    <div className="p-8">
       {loading ? (
         <HashLoader
         color={'#50C878'}
@@ -53,10 +53,10 @@ export default function AnalysisPage() {
       ): error ? (
         <p className="text-red-500">{error}</p>
       ) : (
-        <div>
-          <h2 className=" text-emerald-600 text-xl font-semibold mb-4"> AI Overview </h2>
+        <div className='ml-15'>
+          <h2 className=" ml-15 text-emerald-600 text-xl font-semibold mb-4">      AI Overview </h2>
          
-          <pre className="text-gray-700 whitespace-pre-wrap">{analysis}</pre>
+          <pre className=" text-gray-900 text-s mb-4 sm:h-72 md:h-96 lg:w-full lg:h-full">{analysis}</pre>
         </div>
       )}
     </div>
