@@ -5,7 +5,7 @@ export default function Profile() {
   const impactStats = {
     plasticSaved: 127,
     co2Reduced: 456,
-    treesPlanted: 12,
+    waterSaved: 240,
     totalOrders: 24,
   };
 
@@ -60,8 +60,8 @@ export default function Profile() {
             </div>
             <div className="bg-purple-50 rounded-lg p-4">
               <Leaf className="h-8 w-8 text-purple-600 mb-2" />
-              <h3 className="text-lg font-medium text-gray-900">Trees Planted</h3>
-              <p className="text-2xl font-bold text-purple-600">{impactStats.treesPlanted}</p>
+              <h3 className="text-lg font-medium text-gray-900">Water Saved</h3>
+              <p className="text-2xl font-bold text-purple-600">{impactStats.waterSaved}L</p>
             </div>
           </div>
 

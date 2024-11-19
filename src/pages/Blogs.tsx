@@ -10,6 +10,7 @@ const blogs = [
     date: '2024-03-15',
     image: 'https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80',
     category: 'Environment',
+    url: 'https://www.vanellagroupmn.com/the-environmental-and-health-impacts-of-single-use-plastics-and-what-we-can-do-to-reduce-their-use#:~:text=They%20are%20not%20biodegradable%20%E2%80%93%20Most,Microplastics%20also%20enter%20food%20chains',
   },
   {
     id: 2,
@@ -19,6 +20,7 @@ const blogs = [
     date: '2024-03-12',
     image: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80',
     category: 'Lifestyle',
+    url: 'https://www.goingzerowaste.com/blog/10-easy-swaps-for-a-zero-waste-kitchen/',
   },
   {
     id: 3,
@@ -28,6 +30,7 @@ const blogs = [
     date: '2024-03-10',
     image: 'https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80',
     category: 'Fashion',
+    url: 'https://www.virtueimpact.com/post/the-rise-of-sustainable-fashion-why-eco-friendly-clothing-is-here-to-stay',
   },
 ];
 
@@ -74,10 +77,13 @@ export default function Blogs() {
                   <Calendar className="h-4 w-4 mr-1" />
                   <span>{new Date(blog.date).toLocaleDateString()}</span>
                 </div>
-                <button className="flex items-center text-emerald-600 hover:text-emerald-700 font-medium">
-                  Read More
-                  <ArrowRight className="h-4 w-4 ml-1" />
-                </button>
+                <a href={blog.url} target="_blank" rel="noopener noreferrer">
+                  <button className="flex items-center text-emerald-600 hover:text-emerald-700 font-medium">
+                    Read More
+                    <ArrowRight className="h-4 w-4 ml-1" />
+                  </button>
+                </a>
+                
               </div>
             </article>
           ))}

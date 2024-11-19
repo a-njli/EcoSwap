@@ -40,10 +40,10 @@ export default function AnalysisPage() {
   };
 
   return (
-    <div className="p-8">
+    <div className="p-4 background color: bg-green-400">
       {loading ? (
         <HashLoader
-        color={'#50C878'}
+        color={'#7F00FF'}
         loading={loading}
         cssOverride={override}
         size={200}
@@ -51,12 +51,12 @@ export default function AnalysisPage() {
         data-testid="loader"
       />
       ): error ? (
-        <p className="text-red-500">{error}</p>
+        <p className="text-red-500 mb-50 font-semibold alignItem: center">{error}</p>
       ) : (
-        <div className='ml-15'>
-          <h2 className=" ml-15 text-emerald-600 text-xl font-semibold mb-4">      AI Overview </h2>
+        <div className="ml-10 ">
+          <h2 className=" ml-15 text-purple-600 text-2xl font-bold mb-4 ">AI Overview </h2>
          
-          <pre className=" text-gray-900 text-s mb-4 sm:h-72 md:h-96 lg:w-full lg:h-full">{analysis}</pre>
+          <pre className=" text-white font-semibold text-s mb-4 sm:h-72 md:h-96 lg:w-full lg:h-full">{analysis}</pre>
         </div>
       )}
     </div>
