@@ -112,6 +112,36 @@ const products = [
     rating: 5.0,
     reviews: 1,
     url: 'https://www.amazon.in/Cleaning-Drinking-Friendly-Products-Stainless/dp/B0B3MLMGFF/ref=sr_1_26?crid=1485E3V4QZFZR&dib=eyJ2IjoiMSJ9.AhUSVKr3rvORlUFMwkloR3bnQeGfyhmw4LO6YwVe_-0B58KWWiyT84bUsDl_eKldlOnbAx2NX0AVTwSYFpqgZzU2V6dt4-9pditt-0FVtyKVxPaY39tRuVpP7iFicTFd6P3shvv-bdg6bje-hZqb5BPU5b7xa2zIxXu7qS418BXdp26s7KasyRpszimJFh6muC-LX7R4dJqBNVuujHcO_JSBtew_zYlmGY1OZBpG-Qv_rhtJTVWAdiilW5YHvE9l6iswo9vrMARW4qlaFdYdfYRdLbOVO2RvIzMhiJW8QDA.R2dO83y0mYP1KGHunX_TT77ZStZCwZAfP07pUFSK404&dib_tag=se&keywords=reusable+eco+friendly+products&qid=1731935195&sprefix=reusable+eco+friendly+products+%2Caps%2C241&sr=8-26' // Unique link
+  },
+  {
+    id: 12,
+    name: 'Copper Water Bottle',
+    description: 'SMILES GIFT Stylish Black Copper Water Bottle - Eco-Friendly, Durable, 1L Capacity 950 ml Bottle  (Pack of 1, Black, Copper)',
+    price: 803,
+    image: 'https://rukminim2.flixcart.com/image/612/612/xif0q/bottle/u/z/n/950-stylish-black-copper-water-bottle-eco-friendly-durable-1l-original-imah4xhakgpt6hrv.jpeg?q=70',
+    rating: 3.9,
+    reviews: 1,
+    url: 'https://www.flipkart.com/smiles-gift-stylish-black-copper-water-bottle-eco-friendly-durable-1l-capacity-950-ml/p/itm02a4686328569?pid=BOTH3ZVMGZFTQY7B&lid=LSTBOTH3ZVMGZFTQY7BCYZZSY&marketplace=FLIPKART&q=eco+friendly+bottle&store=upp%2F3t7&srno=s_2_46&otracker=search&otracker1=search&fm=Search&iid=a7c04961-6bee-4c70-b2f2-897d087a5554.BOTH3ZVMGZFTQY7B.SEARCH&ppt=sp&ppn=sp&ssid=kci8n8545c0000001732032186955&qH=3252b19abd92a380' // Unique link
+  },
+  {
+    id: 13,
+    name: 'Stainless Steel Regular Water Bottle',
+    description: 'AQUENCH RUSH Blue Solid Stainless Steel Eco Friendly Regular Water Bottle 1 L',
+    price: 699,
+    image: 'https://rukminim2.flixcart.com/image/612/612/xif0q/bottle/r/q/c/1000-stainless-steel-water-bottle-fridge-water-bottle-1-litre-original-imahyyzmznjh8xbu.jpeg?q=70',
+    rating: 4.2,
+    reviews: 100,
+    url: 'https://www.myntra.com/water-bottle/aquench/aquench-rush-blue-solid-stainless-steel-eco-friendly-regular-water-bottle-1-l/26181616/buy' // Unique link
+  },
+  {
+    id: 14,
+    name: 'Cotton Canvas Shopper Tote Bag',
+    description: 'Doodle Graphic Printed Cotton Canvas Eco-Friendly Shopper Tote Bag',
+    price: 489,
+    image: 'https://m.media-amazon.com/images/I/61w3zEmmPDL._AC_UL480_FMwebp_QL65_.jpg',
+    rating: 4.1,
+    reviews: 100,
+    url: 'https://www.myntra.com/handbags/doodle/doodle-graphic-printed-cotton-canvas-eco-friendly-shopper-tote-bag/28736320/buy' // Unique link
   }
 
 

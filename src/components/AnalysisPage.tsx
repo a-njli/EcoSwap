@@ -56,7 +56,7 @@ export default function AnalysisPage() {
         <div className="ml-10 ">
           <h2 className=" ml-15 text-purple-600 text-2xl font-bold mb-4 ">AI Overview </h2>
          
-          <pre className=" text-white font-semibold text-s mb-4 sm:h-72 md:h-96 lg:w-full lg:h-full">{analysis}</pre>
+          <pre className=" text-white font-size:1.5em font-semibold text-m mb-4 sm:h-72 md:h-96 lg:w-full lg:h-full">{analysis}</pre>
         </div>
       )}
     </div>
